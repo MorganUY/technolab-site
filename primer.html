@@ -1,0 +1,107 @@
+<!-- Старый HTML шаблон (закомментирован) -->
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехноЛаб — Сервисный центр</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Потом убрать или оставить -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo-group">
+                <img src="images/лого2.png" alt="Логотип ТехноЛаб" class="logo-img">
+                <span class="logo-name">ТехноЛаб</span>
+            </div>
+            <nav class="nav">
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#" class="nav__link">Контакты</a>
+                <a href="#" class="nav__link nav__link--btn">Личный кабинет</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-slider">
+            <div class="container slider-wrapper">
+                <div class="slider-info">
+                    <h1 class="slider-title">Сервисный центр <span class="highlight">"ТехноЛаб"</span></h1>
+                    <p class="slider-text">Профессиональный ремонт цифровой техники любой сложности. Мы вернем ваш девайс к жизни быстро и с гарантией.</p>
+                    <div class="slider-controls">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                </div>
+                <div class="slider-visual">
+                    <img src="images/photo1.jpg" alt="Ремонт техники" class="main-slide-img" id="mainImage">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Услуги и цены</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">💻</div>
+                        <p class="service-label">Ремонт ПК и ноутбуков</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">📱</div>
+                        <p class="service-label">Ремонт телефонов, планшетов</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">📡</div>
+                        <p class="service-label">Спутниковые и приставки</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">📺</div>
+                        <p class="service-label">Ремонт телевизоров и мониторов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title white-title">О нашем сервисе</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Сервисный центр «ТехноЛаб» осуществляет ремонт цифровой техники в кратчайшие сроки. Мы используем профессиональное оборудование и оригинальные запчасти.</p>
+                        <p>Наши мастера постоянно повышают квалификацию, чтобы справляться с самыми сложными поломками современных гаджетов.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card"><strong>5 лет</strong> опыта</div>
+                        <div class="stat-card"><strong>100%</strong> гарантия</div>
+                        <div class="stat-card"><strong>Сжатые</strong> сроки</div>
+                        <div class="stat-card"><strong>Честные</strong> цены</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
